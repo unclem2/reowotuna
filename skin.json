@@ -6,8 +6,8 @@
 
  "Slider" : { "sliderFollowComboColor" :  false,   
  "sliderBorderColor" : "#555466", 
- "sliderBodyColor" : "#232439", 
- "sliderBodyBaseAlpha" : 0.4, 
+ "sliderBodyColor" : "#1e1e29", 
+ "sliderBodyBaseAlpha" : 0, 
  "sliderHintEnable": true, 
  "sliderHintAlpha" : 0.8, 
  "sliderHintWidth" : 24, 
@@ -27,7 +27,7 @@
    "MenuItemVersionsDefaultColor" : "#DDDDDD",
    "MenuItemVersionsSelectedColor" : "#FFFFFF",   
    "MenuItemSelectedTextColor" : "#FFFFFF",       
-   "MenuItemDefaultTextColor" : "#DDDDDD" },
+   "MenuItemDefaultTextColor" : "#FFFFFF" },
  
  
  
@@ -35,15 +35,20 @@
  
     "Layout" : { 
    "useNewLayout" : true,
-   "BackButton" : { "scaleWhenHold" : false }, 
+   "BackButton" : {
+"h": 110,
+"scale": 1,
+"w": 265,
+"scaleWhenHold" : false 
+}, 
    "ModsButton" : { "scale" : 1 , 
-"w" : 90 , 
-"h" : 90 }, 
+"w" : 110 , 
+"h" : 95 }, 
    "RandomButton" : { "scale" : 1 , 
-"w" : 90 , 
-"h" : 90 }, 
+"w" : 110 , 
+"h" : 110 }, 
    "OptionsButton" : { "scale" : 1 , 
-"w" : 90 , 
-"h" : 90 }
+"w" : 110 , 
+"h" : 95 }
     }
 }
