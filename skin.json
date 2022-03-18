@@ -42,13 +42,13 @@
 "scaleWhenHold" : false 
 }, 
    "ModsButton" : { "scale" : 1 , 
-"w" : 110 , 
-"h" : 95 }, 
+"w" : 95 , 
+"h" : 110 }, 
    "RandomButton" : { "scale" : 1 , 
 "w" : 110 , 
 "h" : 110 }, 
    "OptionsButton" : { "scale" : 1 , 
-"w" : 110 , 
-"h" : 95 }
+"w" : 95 , 
+"h" : 110 }
     }
 }
