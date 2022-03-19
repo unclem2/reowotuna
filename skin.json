@@ -1,54 +1,57 @@
-{ 
-"ComboColor" : { 
-    "forceOverride" : true, 
-    "colors" : ["#A464F0","#E66E96","#64C8C8","#8278FF"] 
- }, 
-
- "Slider" : { "sliderFollowComboColor" :  false,   
- "sliderBorderColor" : "#555466", 
- "sliderBodyColor" : "#1e1e29", 
- "sliderBodyBaseAlpha" : 0, 
- "sliderHintEnable": true, 
- "sliderHintAlpha" : 0.8, 
- "sliderHintWidth" : 24, 
- "sliderHintShowMinLength" : 750
- },
-
- "Utils" : {
-      "limitComboTextLength" : false, 
-      "disableKiai" : true
-   }, 
-
-   
-    
-
-   "Color" : { 
+{
+  "ComboColor":{
+    "forceOverride":true,
+    "colors":[
+      "#A464F0",
+      "#E66E96",
+      "#64C8C8",
+      "#8278FF"     
+      ]
+  },
+  "Slider":{
+    "sliderFollowComboColor":false,
+    "sliderBorderColor":"#555466", 
+    "sliderBodyColor":"#1E1E29", 
+    "sliderBodyBaseAlpha":0.8, 
+    "sliderHintEnable":true,
+    "sliderHintColor":"#8A8A8A",
+    "sliderHintAlpha":0.3,
+    "sliderHintWidth":4, 
+    "sliderHintShowMinLength":1
+  },
+  "Utils":{
+    "limitComboTextLength":true, 
+    "disableKiai":true 
+    }, 
+  "Layout":{
+    "BackButton":{
+    "h":111,
+    "scale":1,  
+    "w":285,
+    "scaleWhenHold":false
+    },
+    "ModsButton":{
+    "h":110,
+    "scale":1,
+    "w":135
+    },
+    "OptionsButton":{
+    "h":110,
+    "scale":1,
+    "w":106
+    },
+    "RandomButton":{
+    "h":110,
+    "scale":1,
+    "w":125
+    },
+    "useNewLayout":true
+  },
+  "Color" : { 
    "MenuItemDefaultColor" : "#b8b6b6",       
    "MenuItemVersionsDefaultColor" : "#DDDDDD",
    "MenuItemVersionsSelectedColor" : "#FFFFFF",   
    "MenuItemSelectedTextColor" : "#FFFFFF",       
-   "MenuItemDefaultTextColor" : "#FFFFFF" },
- 
- 
- 
- 
- 
-    "Layout" : { 
-   "useNewLayout" : true,
-   "BackButton" : {
-"h": 110,
-"scale": 1,
-"w": 265,
-"scaleWhenHold" : false 
-}, 
-   "ModsButton" : { "scale" : 1 , 
-"w" : 95 , 
-"h" : 110 }, 
-   "RandomButton" : { "scale" : 1 , 
-"w" : 110 , 
-"h" : 110 }, 
-   "OptionsButton" : { "scale" : 1 , 
-"w" : 95 , 
-"h" : 110 }
-    }
+   "MenuItemDefaultTextColor" : "#FFFFFF"
+   }
 }
