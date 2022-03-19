@@ -14,7 +14,7 @@
     "sliderBodyColor":"#1E1E29", 
     "sliderBodyBaseAlpha":0.8, 
     "sliderHintEnable":true,
-    "sliderHintColor":"#606162",
+    "sliderHintColor":"#8A8A8A",
     "sliderHintAlpha":0.3,
     "sliderHintWidth":4, 
     "sliderHintShowMinLength":1
